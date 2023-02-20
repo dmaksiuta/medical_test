@@ -1,0 +1,15 @@
+:host::ng-deep .p-datatable .p-datatable-thead > tr > th {
+  white-space: nowrap;
+}
+:host::ng-deep p-sorticon.p-element {
+  display: inline-flex;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flex p-multiSelect {
+  flex-grow: 1;
+  width: 100%;
+}
